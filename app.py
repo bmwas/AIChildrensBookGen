@@ -625,4 +625,5 @@ The Curious George Adventure Creator allows you to craft unique episodes featuri
 
 if __name__ == "__main__":
     demo = asyncio.run(create_demo())
-    demo.launch(share=True)
+    demo.launch(server_name="0.0.0.0", share=True)
+
